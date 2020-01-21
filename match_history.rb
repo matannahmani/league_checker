@@ -2,7 +2,6 @@
 require 'json'
 require 'open-uri'
 require 'date'
-require "pry-byebug"
 require "sinatra"
 require "sinatra/reloader" if development?
 require "better_errors"
