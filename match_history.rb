@@ -3,13 +3,8 @@ require 'json'
 require 'open-uri'
 require 'date'
 require "sinatra"
-require "sinatra/reloader" if development?
-require "better_errors"
+
 set :bind, '0.0.0.0'
-configure :development do
-  use BetterErrors::Middleware
-  BetterErrors.application_root = File.expand_path('..', __FILE__)
-end
 
 API_KEY = "RGAPI-70c6f439-ded7-4af4-8d4d-5b076bd8e5e8"
 API_SUMMONERID = "https://eun1.api.riotgames.com/lol/summoner/v4/summoners/by-name/"
