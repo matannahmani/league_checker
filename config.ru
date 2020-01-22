@@ -1,5 +1,4 @@
 require 'rubygems'
 require 'sinatra'
-require './search'
-require '/search'
+require './match_history'
 run Sinatra::Application
