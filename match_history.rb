@@ -17,6 +17,9 @@ API_MATCH_HISTORY = "https://eun1.api.riotgames.com/lol/match/v4/matchlists/by-a
 API_MATCH_STATS = "https://eun1.api.riotgames.com/lol/match/v4/matches/"
 #https://eun1.api.riotgames.com/lol/summoner/v4/summoners/by-name/vergo?api_key=RGAPI-b9f6f97e-3e38-4dc2-95b0-98279bae5b8c
 
+get '/' do
+  erb :result
+end
 get '/result' do
   erb :result
 end
