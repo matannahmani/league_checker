@@ -10,7 +10,7 @@ configure :development do
   BetterErrors.application_root = File.expand_path('..', __FILE__)
 end
 
-API_KEY = "RGAPI-03733fa1-c979-414d-a23a-ba454228f153"
+API_KEY = "RGAPI-70c6f439-ded7-4af4-8d4d-5b076bd8e5e8"
 API_SUMMONERID = "https://eun1.api.riotgames.com/lol/summoner/v4/summoners/by-name/"
 API_MATCH_HISTORY = "https://eun1.api.riotgames.com/lol/match/v4/matchlists/by-account/"
 API_MATCH_STATS = "https://eun1.api.riotgames.com/lol/match/v4/matches/"
