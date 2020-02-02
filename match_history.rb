@@ -6,7 +6,7 @@ require "sinatra"
 
 set :bind, '0.0.0.0'
 
-API_KEY = "RGAPI-70c6f439-ded7-4af4-8d4d-5b076bd8e5e8"
+API_KEY = "RGAPI-88d0f11c-b771-4b2e-90a2-a6f918796feb"
 API_SUMMONERID = "https://eun1.api.riotgames.com/lol/summoner/v4/summoners/by-name/"
 API_MATCH_HISTORY = "https://eun1.api.riotgames.com/lol/match/v4/matchlists/by-account/"
 API_MATCH_STATS = "https://eun1.api.riotgames.com/lol/match/v4/matches/"
